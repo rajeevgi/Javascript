@@ -12,7 +12,7 @@ if(num1 % 5 === 0 && num1 % 11 === 0){
 
 let num2 = 21;
 
-if(num2 % 3 === 0 && num2 % 7 === 0){
+if(num2 % 3 === 0 || num2 % 7 === 0){
     console.log(num2 + " is divisible by 3 and 7.");
 }else{
     console.log(num2 + " is not divisible by 3 and 7.");
